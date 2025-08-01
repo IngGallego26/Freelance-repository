@@ -1,11 +1,10 @@
-# Spatial Suitability Analysis for Granadilla Crop using R and QGIS 🌍🌱
+# Effect of GA₃ and Imbibition Time on Germination of Radish (Raphanus sativus L.)  🌍🌱
 
-This project presents a spatial suitability analysis for cultivating *Passiflora ligularis* (granadilla) using R and QGIS. The objective was to identify optimal agricultural zones based on environmental and soil variables through spatial interpolation and weighted overlay techniques.
+This project evaluated the interaction between different concentrations of gibberellic acid (GA₃) and hours of imbibition on the germination of Raphanus sativus (radish) seeds. A 3² factorial design was used with three levels of gibberellic acid (GA) concentration (0, 3, and 6 ppm) and three levels of imbibition (0, 6, and 12 hours), with three replicates per treatment.
 
 ## 🔧 Tools & Libraries
 
-- **R**: raster, terra, tidyverse, ggplot2, sf
-- **QGIS**: for initial GIS data processing
+- **R**: agricolae, readxl
 - **R Markdown**: for report generation and visualizations
 
 ## 📌 Methodology
@@ -20,7 +19,7 @@ This project presents a spatial suitability analysis for cultivating *Passiflora
 
 The analysis identified specific zones with high potential for granadilla cultivation, supporting data-driven decision-making in agricultural planning.
 
-![Example Map](map_suitability.png)
+
 
 ## 📁 Included Files
 
@@ -31,7 +30,7 @@ The analysis identified specific zones with high potential for granadilla cultiv
 
 ## 🔗 View Online
 
-You can preview the report here: [RPubs Link](https://rpubs.com/your_username/granadilla_suitability)
+You can preview the report here: [RPubs Link](https://rpubs.com/SantiagoGallego/1333461)
 
 ---
 
