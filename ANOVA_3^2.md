@@ -9,11 +9,21 @@ This project evaluated the interaction between different concentrations of gibbe
 
 ## 📌 Methodology
 
-1. Preprocessing of spatial and environmental data
-2. Interpolation using Inverse Distance Weighting (IDW) and/or Ordinary Kriging
-3. Classification of each factor based on agronomic thresholds
-4. Weighted overlay to compute final suitability map
-5. Visualization of classified zones (High, Medium, Low suitability)
+1.Experimental Design
+A factorial design 3^2 was implemented under a Completely Randomized Design (CRD), with two factors: GA₃ concentration (0, 3, and 6 ppm) and imbibition time (0, 6, and 12 h). Each treatment was replicated three times.
+2. Data Collection
+For each experimental unit (15 radish seeds per Petri dish), the germination percentage was recorded after 48 hours of darkness.
+3. Exploratory Data Analysis
+Descriptive statistics and boxplots were generated to evaluate data distribution and identify potential outliers.
+4. Assumptions Check
+Normality and homogeneity of variances were assessed using Shapiro–Wilk and Bartlett’s tests, respectively.
+5. ANOVA and Post-hoc Testing
+Two-way ANOVA was conducted to evaluate the main and interaction effects of the factors. Tukey’s HSD or Dunnett’s test was applied for multiple comparisons when significant effects were detected.
+6. Visualization of Results
+Interaction plots, contour plots, and 3D surface plots were constructed to illustrate the response surface and factor interactions.
+
+
+
 
 ## 📊 Results
 
