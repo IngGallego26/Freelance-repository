@@ -27,15 +27,23 @@ Interaction plots, contour plots, and 3D surface plots were constructed to illus
 
 ## 📊 Results
 
-The analysis identified specific zones with high potential for granadilla cultivation, supporting data-driven decision-making in agricultural planning.
+1. Main and Interaction Effects
+The two-way ANOVA revealed statistically significant effects (p < 0.05) of both imbibition time and GA₃ concentration on the germination percentage. Moreover, the interaction between these two factors was also significant, indicating that the effect of GA₃ varied depending on the imbibition duration.
+2. Treatment Comparison
+Post-hoc analysis (e.g., Tukey HSD) identified the combination of 6 ppm GA₃ and 12 hours of imbibition as the most effective treatment, significantly increasing germination percentage compared to the control.
+3. Interaction and Surface Response
+The interaction plot and surface plots (perspective and contour views) confirmed a synergistic effect, where higher GA₃ concentrations were more effective when seeds were pre-soaked for longer durations.
+4. Biological Interpretation
+These results suggest that seed exposure to GA₃ under optimal imbibition enhances the activation of physiological mechanisms involved in breaking dormancy and promoting germination in radish seeds (Raphanus sativus L.).
 
 
 
 ## 📁 Included Files
-
-- `suitability_analysis.Rmd`: Full R code with step-by-step analysis
-- `suitability_map.png`: Final output map
-- `environmental_data.csv`: Input dataset (example)
+- `ANOVA_analysis.Rmd`: Full R code with step-by-step analysis
+- `boxplot_germination.png` exploratory graphic
+- `interaction.png`
+- `Contour_and_surface.png`: Final output graphic
+- `table_anova.xlsx`
 - `report.html`: Rendered interactive report
 
 ## 🔗 View Online
